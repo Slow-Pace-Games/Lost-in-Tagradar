@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68c03636ea1273e469a45365f6431be1, type: 3}
+  m_Name: M0Tier0
+  m_EditorClassIdentifier: 
+  isUnlock: 1
+  isBought: 0
+  nameTier: New Beginning
+  icon: {fileID: 1983754762, guid: ee80e24dd74913942b812cb2d652c071, type: 3}
+  iconBought: {fileID: 1983754762, guid: ee80e24dd74913942b812cb2d652c071, type: 3}
+  tierCost:
+  - item: {fileID: 11400000, guid: e9c5b9a30ed9a114c82816965cd85ec9, type: 2}
+    valueCost: 35
+  - item: {fileID: 11400000, guid: c9187869df6395047a97fc422cb75e7f, type: 2}
+    valueCost: 35
+  rewards:
+    recipeReward: []
+    buildingReward:
+    - {fileID: 11400000, guid: b0b94d260e1e2fb4d97eebd7f67cc3a4, type: 2}

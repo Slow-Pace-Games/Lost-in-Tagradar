@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e05c45b2ff443d408eb37d5899535be, type: 3}
+  m_Name: Assembler
+  m_EditorClassIdentifier: 
+  ranks:
+  - percentTimer: 0
+    percentEnergy: 0
+    texture: {fileID: 0}
+  - percentTimer: 0
+    percentEnergy: 0
+    texture: {fileID: 0}
+  costs:
+  - item: {fileID: 11400000, guid: 14b5115fe28ea9447a622f099c28b287, type: 2}
+    value: 20
+  - item: {fileID: 11400000, guid: 0e673f2290770124e849f8aadd5d5ad8, type: 2}
+    value: 15
+  - item: {fileID: 11400000, guid: 5fb3aa8091c7d4f428754bc7e2df2b1c, type: 2}
+    value: 30
+  recipes:
+  - {fileID: 11400000, guid: 021582ebad3b20943a14ea64431f417e, type: 2}
+  - {fileID: 11400000, guid: 66de96423feb1fa4f8da5e288886e46d, type: 2}
+  - {fileID: 11400000, guid: 1cdabe9e05c2c9244b2cf539198ea3b9, type: 2}
+  - {fileID: 11400000, guid: 5f86e1785c5620945b2151cad83612a3, type: 2}
+  machineType: 3
+  machineClass: 1
+  prefabType: 1
+  isDiscovered: 0
+  prefab: {fileID: 6387977024433925170, guid: 6e1c81c6d90680f43b25521d256492f5, type: 3}
+  icon: {fileID: 21300000, guid: 9ab3d7fabcbfe62469677a9a687b3ce8, type: 3}
+  hasRecipe: 1
+  description: Same as a constructor but has two inputs in order to craft more complex
+    resources
+  sounds: {fileID: 11400000, guid: 16d9b98ad3d78c145a96870480ff556e, type: 2}
+  discoverySound: {fileID: 8300000, guid: 974cdfdf45d89b641bd2f85ccd5f085f, type: 3}

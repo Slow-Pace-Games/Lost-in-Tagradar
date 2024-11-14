@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3492731136198427116
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1054090579528384313}
+  - component: {fileID: 396128624272491391}
+  m_Layer: 0
+  m_Name: DiscoveryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1054090579528384313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492731136198427116}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 514.94165, y: 213.16888, z: -3.7442765}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &396128624272491391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492731136198427116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1baa3d7c46d28e4298bebcd81bbbf22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  database: {fileID: 11400000, guid: a75aac712a1acae4193e3226c7a44473, type: 2}
+  discoveredItems:
+  - {fileID: 11400000, guid: fd40e1c98bfa79740b573c59f84952ec, type: 2}
+  - {fileID: 11400000, guid: c9187869df6395047a97fc422cb75e7f, type: 2}
+  - {fileID: 11400000, guid: e9c5b9a30ed9a114c82816965cd85ec9, type: 2}
+  - {fileID: 11400000, guid: cc9a9b2caec4c50428fff0e59cff1e00, type: 2}
+  - {fileID: 11400000, guid: 6ce3d2b6fa33cbd4aaf2a27b4b1d18c0, type: 2}
+  - {fileID: 11400000, guid: 0e673f2290770124e849f8aadd5d5ad8, type: 2}
+  - {fileID: 11400000, guid: e96ec9d5b19dd1544924a30e5e61cbb2, type: 2}
+  - {fileID: 11400000, guid: 5caa6132d7c14ba44946b61d4d8f83ce, type: 2}
+  - {fileID: 11400000, guid: 5702729d3a086b44c9439d21e159d515, type: 2}
+  discoveredBuildings:
+  - {fileID: 11400000, guid: 65971e711f9c44c45b43a2dc59b91fbe, type: 2}
+  unlockRecipes:
+  - {fileID: 11400000, guid: 48e77af334f66e046a62e01ed44e0e5a, type: 2}
+  - {fileID: 11400000, guid: bb13669e8a0005f419cee51258f468fb, type: 2}
+  - {fileID: 11400000, guid: 1568e531329dc164b97dad9a751b3a59, type: 2}
+  - {fileID: 11400000, guid: fc6bb3b7d23e36443beab5a72ab2c8ab, type: 2}
+  - {fileID: 11400000, guid: f096cd27c8a26dc45a0cd6b3114aa12f, type: 2}

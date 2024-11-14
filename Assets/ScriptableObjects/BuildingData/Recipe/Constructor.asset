@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e05c45b2ff443d408eb37d5899535be, type: 3}
+  m_Name: Constructor
+  m_EditorClassIdentifier: 
+  ranks:
+  - percentTimer: 0
+    percentEnergy: 0
+    texture: {fileID: 0}
+  - percentTimer: 0
+    percentEnergy: 0
+    texture: {fileID: 0}
+  costs:
+  - item: {fileID: 11400000, guid: 6ce3d2b6fa33cbd4aaf2a27b4b1d18c0, type: 2}
+    value: 5
+  - item: {fileID: 11400000, guid: 5caa6132d7c14ba44946b61d4d8f83ce, type: 2}
+    value: 5
+  recipes:
+  - {fileID: 11400000, guid: 399275bf83f5c694791dce40d7c2263e, type: 2}
+  - {fileID: 11400000, guid: e346589d1b3847c4c8e3bfd3adf61a97, type: 2}
+  - {fileID: 11400000, guid: 4d05acd702b55ab47a7df87d8c9fd24c, type: 2}
+  - {fileID: 11400000, guid: 919111605c040e3499a86b154e1b8c55, type: 2}
+  - {fileID: 11400000, guid: f096cd27c8a26dc45a0cd6b3114aa12f, type: 2}
+  machineType: 2
+  machineClass: 1
+  prefabType: 1
+  isDiscovered: 0
+  prefab: {fileID: 6387977024433925170, guid: 5c4bc71d5df0e9f46b7f9cec4dd5f1d2, type: 3}
+  icon: {fileID: 21300000, guid: 2c5fab702ce33d5489c48ad22b1fda00, type: 3}
+  hasRecipe: 1
+  description: Transforms resources, has one input and output
+  sounds: {fileID: 11400000, guid: b87818eab4b70c148989b87df217d37c, type: 2}
+  discoverySound: {fileID: 8300000, guid: e3986085571a275479a91c5072b0b98b, type: 3}

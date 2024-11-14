@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e05c45b2ff443d408eb37d5899535be, type: 3}
+  m_Name: Agregator
+  m_EditorClassIdentifier: 
+  ranks:
+  - percentTimer: 0
+    percentEnergy: 0
+    texture: {fileID: 0}
+  - percentTimer: 0
+    percentEnergy: 0
+    texture: {fileID: 0}
+  costs:
+  - item: {fileID: 11400000, guid: 6ce3d2b6fa33cbd4aaf2a27b4b1d18c0, type: 2}
+    value: 5
+  - item: {fileID: 11400000, guid: 5caa6132d7c14ba44946b61d4d8f83ce, type: 2}
+    value: 5
+  recipes: []
+  machineType: 0
+  machineClass: 3
+  prefabType: 1
+  isDiscovered: 0
+  prefab: {fileID: 6387977024433925170, guid: 87f508c0fa424c74499c2b9c864ca5bc, type: 3}
+  icon: {fileID: 21300000, guid: 44c79f106b0d5364aaebc7d8324b7656, type: 3}
+  hasRecipe: 0
+  description: Merge three conveyors into one
+  sounds: {fileID: 11400000, guid: e0b38304e213c884696b5efa802d211a, type: 2}
+  discoverySound: {fileID: 8300000, guid: 2b7ff7e47230b024b9470819ff55482a, type: 3}

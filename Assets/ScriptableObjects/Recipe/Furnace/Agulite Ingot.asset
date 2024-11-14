@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dea7ac232c94a24ba8264b1586052a5, type: 3}
+  m_Name: Agulite Ingot
+  m_EditorClassIdentifier: 
+  nameRecipe: Agulite Ingot
+  itemOutput: {fileID: 11400000, guid: cc9a9b2caec4c50428fff0e59cff1e00, type: 2}
+  valueStackOutput: 1
+  itemsInput:
+  - inputItem: {fileID: 11400000, guid: e9c5b9a30ed9a114c82816965cd85ec9, type: 2}
+    valueStack: 3
+  meltTime: 1
+  electricityCost: 10
+  description: Agulite Ingot
+  isUnlock: 1
+  machineRef: 1

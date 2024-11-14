@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dea7ac232c94a24ba8264b1586052a5, type: 3}
+  m_Name: Rifle
+  m_EditorClassIdentifier: 
+  nameRecipe: Rifle
+  itemOutput: {fileID: 11400000, guid: 3c1eaeb71350f134ea48c5192b14622f, type: 2}
+  valueStackOutput: 1
+  itemsInput:
+  - inputItem: {fileID: 11400000, guid: 5caa6132d7c14ba44946b61d4d8f83ce, type: 2}
+    valueStack: 100
+  - inputItem: {fileID: 11400000, guid: 4371602166f70f143a6223cfc698061c, type: 2}
+    valueStack: 50
+  - inputItem: {fileID: 11400000, guid: 6cf52d34f084bff45a46c0cbed8eba54, type: 2}
+    valueStack: 1
+  meltTime: 10
+  electricityCost: 0
+  description: To kill enemies more efficently
+  isUnlock: 0
+  machineRef: 0

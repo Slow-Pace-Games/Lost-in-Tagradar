@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68c03636ea1273e469a45365f6431be1, type: 3}
+  m_Name: M2Tier1
+  m_EditorClassIdentifier: 
+  isUnlock: 1
+  isBought: 0
+  nameTier: Assembly
+  icon: {fileID: 1983754762, guid: ee80e24dd74913942b812cb2d652c071, type: 3}
+  iconBought: {fileID: 1983754762, guid: ee80e24dd74913942b812cb2d652c071, type: 3}
+  tierCost:
+  - item: {fileID: 11400000, guid: e96ec9d5b19dd1544924a30e5e61cbb2, type: 2}
+    valueCost: 50
+  - item: {fileID: 11400000, guid: 0e673f2290770124e849f8aadd5d5ad8, type: 2}
+    valueCost: 90
+  - item: {fileID: 11400000, guid: cc9a9b2caec4c50428fff0e59cff1e00, type: 2}
+    valueCost: 150
+  rewards:
+    recipeReward:
+    - {fileID: 11400000, guid: 021582ebad3b20943a14ea64431f417e, type: 2}
+    - {fileID: 11400000, guid: 66de96423feb1fa4f8da5e288886e46d, type: 2}
+    - {fileID: 11400000, guid: 1cdabe9e05c2c9244b2cf539198ea3b9, type: 2}
+    - {fileID: 11400000, guid: 5f86e1785c5620945b2151cad83612a3, type: 2}
+    buildingReward:
+    - {fileID: 11400000, guid: f5c3b4c1bfef9cc4a8ff9fbc5dec66b7, type: 2}

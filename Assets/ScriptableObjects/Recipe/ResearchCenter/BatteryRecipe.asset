@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dea7ac232c94a24ba8264b1586052a5, type: 3}
+  m_Name: BatteryRecipe
+  m_EditorClassIdentifier: 
+  nameRecipe: Battery
+  itemOutput: {fileID: 11400000, guid: b2f82c3c5fcab5342b3d8f047a29801b, type: 2}
+  valueStackOutput: 1
+  itemsInput:
+  - inputItem: {fileID: 11400000, guid: 6cf52d34f084bff45a46c0cbed8eba54, type: 2}
+    valueStack: 20
+  meltTime: 0
+  electricityCost: 0
+  description: An electric enhancer for your health regeneration.
+  isUnlock: 0
+  machineRef: 0

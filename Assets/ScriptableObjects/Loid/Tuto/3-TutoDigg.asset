@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30328ef860c78f34b99bd004e538f974, type: 3}
+  m_Name: 3-TutoDigg
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - {fileID: 8300000, guid: 8754643fa350c88498c7695368c73553, type: 3}
+  - {fileID: 8300000, guid: cfd4b3b4fb99a3849b93c786138987ac, type: 3}
+  - {fileID: 8300000, guid: acabfbe9d3eac1943982a0723f08faf2, type: 3}
+  tutoDialogues:
+  - dialogue: Your scanner found something, I put it on your compass.
+    voiceType: 1
+  - dialogue: Go on it to mine it,
+    voiceType: 1
+  - dialogue: every item you get will be displayed on the left side of your helmet
+    voiceType: 1
+  tutoTips: 'You can mine ressource by holding <color=#028AFF>F</color> near it.
+
+
+    Resources
+    are infinite.
+
+
+    The resource are put in your <color=#028AFF>Inventory</color>,
+    you can access it by pressing <color=#028AFF>TAB</color> or <color=#028AFF>I</color>.'
+  tutoTitle: 'Tuto : Mining'
+  tutoDescription: "Press \"F\" near a resource to mine it. \nThe ressource automatically
+    add to your inventory. \nInventory can be accessed by pressing \"Tab\" or \"I\"."

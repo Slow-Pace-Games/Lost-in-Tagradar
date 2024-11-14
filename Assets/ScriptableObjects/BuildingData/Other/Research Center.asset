@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e05c45b2ff443d408eb37d5899535be, type: 3}
+  m_Name: Research Center
+  m_EditorClassIdentifier: 
+  ranks:
+  - percentTimer: 0
+    percentEnergy: 0
+    texture: {fileID: 0}
+  costs:
+  - item: {fileID: 11400000, guid: e9c5b9a30ed9a114c82816965cd85ec9, type: 2}
+    value: 5
+  recipes: []
+  machineType: 0
+  machineClass: 0
+  prefabType: 1
+  isDiscovered: 0
+  prefab: {fileID: 8015627962857852272, guid: 2140a82866c8f1048ae1ff3eb8fd3574, type: 3}
+  icon: {fileID: 21300000, guid: 30f4842eb2aaa424aac8638633f08c8c, type: 3}
+  hasRecipe: 0
+  description: Allows the analysis of unknown objects to discover new crafts
+  sounds: {fileID: 11400000, guid: 475d1e5507b3a5b48b3b06b235a34a2f, type: 2}
+  discoverySound: {fileID: 8300000, guid: 444cefb6df1b5d040b2114d1975e7f58, type: 3}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30328ef860c78f34b99bd004e538f974, type: 3}
+  m_Name: 7-TutoGenerator
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - {fileID: 8300000, guid: c6f5be008c082ab479bd692814884993, type: 3}
+  - {fileID: 8300000, guid: 59b9f1b1758a2964896d5beef338dc00, type: 3}
+  tutoDialogues:
+  - dialogue: Nice job, but to start the drill you need electricity.
+    voiceType: 1
+  - dialogue: Place the generator and search a ressource to produce electricity.
+    voiceType: 1
+  tutoTips: 'Every machine run on electricity
+
+
+    In the <color=#028AFF>Generator</color>
+    you can burn <color=#028AFF>Scenarium</color> or <color=#028AFF>Biomasse</color>
+    by killing the animals.
+
+
+    The <color=#028AFF>Generator</color> produce electricity
+    in certain range and the <color=#028AFF>Pylon</color> can transport the electricity
+    in certain range.'
+  tutoTitle: 'Tuto : Electricity'
+  tutoDescription: "To create electricity, you have to build a generator. \nYou need
+    pylons to transport electricity to your building.\nGenerator and pylons have
+    a 15 m radius of efficiency."

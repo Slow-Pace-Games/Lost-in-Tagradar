@@ -1,0 +1,11 @@
+{
+  "graphics": {
+    "screenResIndex": 36,
+    "isVsyncOn": true
+  },
+  "playerSetSaveable": {
+    "mouseSensitivityX": 5.0,
+    "mouseSensitivityY": 5.0
+  },
+  "audio": {}
+}

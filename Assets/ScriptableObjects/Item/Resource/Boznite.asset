@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945c8cfe49933c849b2e9fd261e5045f, type: 3}
+  m_Name: Boznite
+  m_EditorClassIdentifier: 
+  mesh: {fileID: 3241650957445359829, guid: 98e46d1322363404ea69ba7b75e5abd0, type: 3}
+  material: {fileID: 2100000, guid: d2fd6fb2aa5a5f9498924dc45e36f724, type: 2}
+  gameObject: {fileID: 0}
+  spriteItem: {fileID: 21300000, guid: bc4a2de2d7d77fd4a87a8f311564b50a, type: 3}
+  nameItem: Boznite
+  description: A metal with similar properties to gold
+  id: 7
+  maxStack: 7
+  isDiscover: 0
+  isEquipable: 0
+  itemType: 1
+  poseOffset:
+    position: {x: -0.24, y: 0.19, z: 0}
+    rotation: {x: 0.99770236, y: 0.06443109, z: -0.020898858, w: -0.0013496372}
+  clip: {fileID: 8300000, guid: 57b5003f2dbb2bd46824a914af570557, type: 3}

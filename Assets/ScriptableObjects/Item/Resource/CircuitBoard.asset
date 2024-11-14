@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945c8cfe49933c849b2e9fd261e5045f, type: 3}
+  m_Name: CircuitBoard
+  m_EditorClassIdentifier: 
+  mesh: {fileID: 4826260170365181069, guid: 1ceac472be8b58440b0e530b035c4e76, type: 3}
+  material: {fileID: 2100000, guid: 7cc90806f8cfddd4886afdcd71f59294, type: 2}
+  gameObject: {fileID: 0}
+  spriteItem: {fileID: 21300000, guid: 7a94e0c0bfd657e4f86cb1ab928bda79, type: 3}
+  nameItem: Circuit board
+  description: A component used in electronics
+  id: 20
+  maxStack: 0
+  isDiscover: 0
+  isEquipable: 0
+  itemType: 1
+  poseOffset:
+    position: {x: 0, y: 0.05, z: 0}
+    rotation: {x: 0, y: 0.00008726646, z: 0, w: 1}
+  clip: {fileID: 0}

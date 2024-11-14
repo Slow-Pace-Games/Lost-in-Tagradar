@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30328ef860c78f34b99bd004e538f974, type: 3}
+  m_Name: 9-TutoConvey
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - {fileID: 8300000, guid: eec8eef7b623f9f4d98e53105dc0b288, type: 3}
+  - {fileID: 8300000, guid: 9e0647f1e50413145b319607a6d3cff3, type: 3}
+  tutoDialogues:
+  - dialogue: Ok, now you can connect it with the conveyor
+    voiceType: 1
+  - dialogue: Snap it at the output of the drill to the input of the furnace
+    voiceType: 1
+  tutoTips: 'The <color=#028AFF>Convey</color> are in the logistic category.
+
+
+    Look
+    at the output/input of the machine to snap it.
+
+
+    <color=#028AFF>Left Click</color>
+    to place the start of the <color=#028AFF>Convey</color> and move the end where
+    you want.'
+  tutoTitle: 'Tuto : Electricity'
+  tutoDescription: "To create electricity, you have to build a generator. \nYou need
+    pylons to transport electricity to your building.\nGenerator and pylons have
+    a 15 m radius of efficiency."

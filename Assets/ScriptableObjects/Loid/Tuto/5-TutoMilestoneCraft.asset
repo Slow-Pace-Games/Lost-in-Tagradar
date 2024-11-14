@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30328ef860c78f34b99bd004e538f974, type: 3}
+  m_Name: 5-TutoMilestoneCraft
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - {fileID: 8300000, guid: debd6f6447ae89c4392219262aca9171, type: 3}
+  - {fileID: 8300000, guid: 91a50a4c28048de40a048904f4c00e2c, type: 3}
+  tutoDialogues:
+  - dialogue: Now we can craft ingot or bar with the ressource we just found.
+    voiceType: 1
+  - dialogue: We can also discover some building to automate our factory.
+    voiceType: 1
+  tutoTips: 'Press <color=#028AFF>F</color> near the <color=#028AFF>HUB</color> to
+    open it.
+
+
+    In the first tab you can <color=#028AFF>Craft</color> some ressources.
+
+
+    In
+    the second tab you can select a <color=#028AFF>Milestone</color> to unlock and
+    purchase it in the last tab.
+
+
+    When you select a <color=#028AFF>Milestone</color>,
+    you can see it on the top right of your screen.'
+  tutoTitle: 'Tuto : Hub'
+  tutoDescription: "Press \"F\" near the hub to open the menu. \nYou can craft items
+    and unlock milestone in the diff\xE9rents tabs."

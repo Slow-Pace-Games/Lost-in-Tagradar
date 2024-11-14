@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dea7ac232c94a24ba8264b1586052a5, type: 3}
+  m_Name: BootsRecipe
+  m_EditorClassIdentifier: 
+  nameRecipe: Boots
+  itemOutput: {fileID: 11400000, guid: 361120c1dd257a64e98b62c2620e3a0a, type: 2}
+  valueStackOutput: 1
+  itemsInput:
+  - inputItem: {fileID: 11400000, guid: f43d9924c8cfe844d9b9b18c24de36a8, type: 2}
+    valueStack: 5
+  - inputItem: {fileID: 11400000, guid: f82b2564a6ca66343b1e19e1133393e3, type: 2}
+    valueStack: 3
+  meltTime: 0
+  electricityCost: 0
+  description: A pair of boots specifically crafted for the harsh environment of
+    Tagradar.
+  isUnlock: 0
+  machineRef: 0

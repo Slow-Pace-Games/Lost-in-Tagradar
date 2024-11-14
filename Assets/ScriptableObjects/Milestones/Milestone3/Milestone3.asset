@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a86706b3752dfc478ebf8c46e899050, type: 3}
+  m_Name: Milestone3
+  m_EditorClassIdentifier: 
+  nameMilestone: Milestone 3
+  prerequisite:
+  - {fileID: 11400000, guid: ecd441957f244d14a89d4edf021f5fe5, type: 2}
+  tier:
+  - {fileID: 11400000, guid: cf8307a1c195ac1498cc2d82575d1a34, type: 2}
+  isUnlock: 0
+  isFinished: 0

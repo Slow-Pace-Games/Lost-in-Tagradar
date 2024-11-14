@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e05c45b2ff443d408eb37d5899535be, type: 3}
+  m_Name: Foundry
+  m_EditorClassIdentifier: 
+  ranks:
+  - percentTimer: 0
+    percentEnergy: 0
+    texture: {fileID: 0}
+  - percentTimer: 0
+    percentEnergy: 0
+    texture: {fileID: 0}
+  costs:
+  - item: {fileID: 11400000, guid: 5702729d3a086b44c9439d21e159d515, type: 2}
+    value: 10
+  - item: {fileID: 11400000, guid: e96ec9d5b19dd1544924a30e5e61cbb2, type: 2}
+    value: 25
+  - item: {fileID: 11400000, guid: 0e673f2290770124e849f8aadd5d5ad8, type: 2}
+    value: 0
+  recipes:
+  - {fileID: 11400000, guid: 612e4f1d8b8e25b49b912a19cd9778e1, type: 2}
+  - {fileID: 11400000, guid: 8e65157362620d24fb676ba2bd50da7e, type: 2}
+  machineType: 4
+  machineClass: 1
+  prefabType: 1
+  isDiscovered: 0
+  prefab: {fileID: 377503795992803440, guid: 3a3bb47100621564b81e0d0943f3f518, type: 3}
+  icon: {fileID: 21300000, guid: dd0cea9ce6d32bf4cb1f4cdab610f9b6, type: 3}
+  hasRecipe: 1
+  description: Smelts two raw resources into alloy ingots
+  sounds: {fileID: 11400000, guid: 383fbd8b862906e4d9a2ab20cc4301ed, type: 2}
+  discoverySound: {fileID: 8300000, guid: f4102bee507a3d944b7b0d94f21a7a35, type: 3}

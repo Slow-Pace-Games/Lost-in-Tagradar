@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dea7ac232c94a24ba8264b1586052a5, type: 3}
+  m_Name: Dacium Ingot
+  m_EditorClassIdentifier: 
+  nameRecipe: Dacium Ingot
+  itemOutput: {fileID: 11400000, guid: 841314c854a2685448e73d66aafe30eb, type: 2}
+  valueStackOutput: 1
+  itemsInput:
+  - inputItem: {fileID: 11400000, guid: e37342241fd3ad540acb3942788e6229, type: 2}
+    valueStack: 3
+  meltTime: 1
+  electricityCost: 10
+  description: 
+  isUnlock: 1
+  machineRef: 1

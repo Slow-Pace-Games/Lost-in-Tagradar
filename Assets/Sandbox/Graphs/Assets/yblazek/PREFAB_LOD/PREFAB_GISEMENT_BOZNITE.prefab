@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2772726842639353651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1607060265027708974}
+  m_Layer: 0
+  m_Name: PREFAB_GISEMENT_BOZNITE
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1607060265027708974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2772726842639353651}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3509277271400060474}
+  - {fileID: 5195047995054655915}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &172791241335237839
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1607060265027708974}
+    m_Modifications:
+    - target: {fileID: 3663279870671256309, guid: 2f34d97a164b4884299d8cb2a86fd0db,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279870671256309, guid: 2f34d97a164b4884299d8cb2a86fd0db,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279870671256309, guid: 2f34d97a164b4884299d8cb2a86fd0db,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279870671256309, guid: 2f34d97a164b4884299d8cb2a86fd0db,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279870671256309, guid: 2f34d97a164b4884299d8cb2a86fd0db,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279870671256309, guid: 2f34d97a164b4884299d8cb2a86fd0db,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279870671256309, guid: 2f34d97a164b4884299d8cb2a86fd0db,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279870671256309, guid: 2f34d97a164b4884299d8cb2a86fd0db,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279870671256309, guid: 2f34d97a164b4884299d8cb2a86fd0db,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279870671256309, guid: 2f34d97a164b4884299d8cb2a86fd0db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279870671256309, guid: 2f34d97a164b4884299d8cb2a86fd0db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663279870671256309, guid: 2f34d97a164b4884299d8cb2a86fd0db,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6576832307098853827, guid: 2f34d97a164b4884299d8cb2a86fd0db,
+        type: 3}
+      propertyPath: m_Name
+      value: GISEMENT_BOZNITE_LOD
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2f34d97a164b4884299d8cb2a86fd0db, type: 3}
+--- !u!4 &3509277271400060474 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3663279870671256309, guid: 2f34d97a164b4884299d8cb2a86fd0db,
+    type: 3}
+  m_PrefabInstance: {fileID: 172791241335237839}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1928955700554121236
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1607060265027708974}
+    m_Modifications:
+    - target: {fileID: 3359175401978232334, guid: 411044ab7cb2a0f4d81d48eec266b8b7,
+        type: 3}
+      propertyPath: m_Name
+      value: MINERAL_BOZNITE_LOD
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971072020508101055, guid: 411044ab7cb2a0f4d81d48eec266b8b7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971072020508101055, guid: 411044ab7cb2a0f4d81d48eec266b8b7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971072020508101055, guid: 411044ab7cb2a0f4d81d48eec266b8b7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971072020508101055, guid: 411044ab7cb2a0f4d81d48eec266b8b7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971072020508101055, guid: 411044ab7cb2a0f4d81d48eec266b8b7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971072020508101055, guid: 411044ab7cb2a0f4d81d48eec266b8b7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971072020508101055, guid: 411044ab7cb2a0f4d81d48eec266b8b7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971072020508101055, guid: 411044ab7cb2a0f4d81d48eec266b8b7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971072020508101055, guid: 411044ab7cb2a0f4d81d48eec266b8b7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971072020508101055, guid: 411044ab7cb2a0f4d81d48eec266b8b7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 411044ab7cb2a0f4d81d48eec266b8b7, type: 3}
+--- !u!4 &5195047995054655915 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5971072020508101055, guid: 411044ab7cb2a0f4d81d48eec266b8b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1928955700554121236}
+  m_PrefabAsset: {fileID: 0}

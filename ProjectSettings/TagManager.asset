@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Conveyor
+  - Saveable
+  - Input
+  - Save
+  - Output
+  - BuildingItem
+  - Deposit
+  - Weapon
+  - Trailer
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Items
+  - IO
+  - Selectable
+  - Deposit
+  - Player
+  - Monster
+  - ConveySpawn
+  - CAILLOUX
+  - Electricity
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

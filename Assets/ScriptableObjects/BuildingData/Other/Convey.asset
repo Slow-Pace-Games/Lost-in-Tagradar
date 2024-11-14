@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e05c45b2ff443d408eb37d5899535be, type: 3}
+  m_Name: Convey
+  m_EditorClassIdentifier: 
+  ranks: []
+  costs: []
+  recipes: []
+  machineType: 0
+  machineClass: 3
+  prefabType: 0
+  isDiscovered: 0
+  prefab: {fileID: 21353321487529781, guid: a7dd568418b56b04f8ca0336c586a74d, type: 3}
+  icon: {fileID: 21300000, guid: 458b2a8a6eb1c1a4181cd2fda320407d, type: 3}
+  hasRecipe: 0
+  description: 'Enables the transportation of resources between two buildings '
+  sounds: {fileID: 0}
+  discoverySound: {fileID: 8300000, guid: 620b9336ca5609d4b9b5b96531d04fcf, type: 3}

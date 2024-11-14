@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30328ef860c78f34b99bd004e538f974, type: 3}
+  m_Name: 2-TutoScan
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - {fileID: 8300000, guid: 69a8a197cc270734a9228ebe54091497, type: 3}
+  - {fileID: 8300000, guid: ee438407ecb2493478d9dde8b17a7ebb, type: 3}
+  - {fileID: 8300000, guid: 4c0f1751d4a71cc4aa2cc882f2fd3a74, type: 3}
+  - {fileID: 8300000, guid: cf3db302ea70091488e4af22285b3c96, type: 3}
+  - {fileID: 8300000, guid: 52296680634a11544b2181f54e161641, type: 3}
+  - {fileID: 8300000, guid: cc5830e0ca5e6ea4fac1010d6117b43f, type: 3}
+  - {fileID: 8300000, guid: 9f4b4e77a094ac2408dee4b3b8bdcd81, type: 3}
+  - {fileID: 8300000, guid: 0c5b0b772e1ec5648b496a38baa49929, type: 3}
+  - {fileID: 8300000, guid: 77644782d623b7f48a79050b778ee043, type: 3}
+  tutoDialogues:
+  - dialogue: '*Starting analysis*'
+    voiceType: 0
+    holdTime: 2
+  - dialogue: '*0%*'
+    voiceType: 0
+    holdTime: 3
+  - dialogue: '*10%*'
+    voiceType: 0
+    holdTime: 3
+  - dialogue: '*47%*'
+    voiceType: 0
+    holdTime: 3
+  - dialogue: '*89%*'
+    voiceType: 0
+    holdTime: 3
+  - dialogue: '*Analysis Completed*'
+    voiceType: 0
+    holdTime: 2.5
+  - dialogue: The ship will not be able to leave,
+    voiceType: 1
+    holdTime: 2
+  - dialogue: but this planet may contain useful resources to repair it.
+    voiceType: 1
+    holdTime: 2
+  - dialogue: Try using your scanner.
+    voiceType: 1
+    holdTime: 2
+  tutoTips: Scan your environment by holding <color=#028AFF>V</color> and <color=#028AFF>Click</color>
+    on the resource.
+  tutoTitle: 'Tuto : Scan'
+  tutoDescription: "Press \"V\" to use your scanner. \nChose the resource you want
+    to scan and the directions of these resources will be draw on your compass.  "

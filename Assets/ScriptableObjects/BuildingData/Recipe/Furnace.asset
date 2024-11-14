@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e05c45b2ff443d408eb37d5899535be, type: 3}
+  m_Name: Furnace
+  m_EditorClassIdentifier: 
+  ranks:
+  - percentTimer: 0
+    percentEnergy: 0
+    texture: {fileID: 0}
+  - percentTimer: 0
+    percentEnergy: 0
+    texture: {fileID: 0}
+  costs:
+  - item: {fileID: 11400000, guid: cc9a9b2caec4c50428fff0e59cff1e00, type: 2}
+    value: 5
+  - item: {fileID: 11400000, guid: e96ec9d5b19dd1544924a30e5e61cbb2, type: 2}
+    value: 5
+  recipes:
+  - {fileID: 11400000, guid: 48e77af334f66e046a62e01ed44e0e5a, type: 2}
+  - {fileID: 11400000, guid: bb13669e8a0005f419cee51258f468fb, type: 2}
+  - {fileID: 11400000, guid: 1568e531329dc164b97dad9a751b3a59, type: 2}
+  - {fileID: 11400000, guid: fc6bb3b7d23e36443beab5a72ab2c8ab, type: 2}
+  machineType: 1
+  machineClass: 1
+  prefabType: 1
+  isDiscovered: 0
+  prefab: {fileID: 2806395979093064677, guid: 5a25a62645897ab4dbb8e7fd57fadcfb, type: 3}
+  icon: {fileID: 21300000, guid: 61fd28e6c0f50f84995ad1be5a9ea411, type: 3}
+  hasRecipe: 1
+  description: Smelts raw resources into ingots
+  sounds: {fileID: 11400000, guid: a8cb944f632bb0041b3d760fa7ba10da, type: 2}
+  discoverySound: {fileID: 8300000, guid: ff7bbabb1d0594b498d858cb4dfc1cc8, type: 3}

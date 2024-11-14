@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945c8cfe49933c849b2e9fd261e5045f, type: 3}
+  m_Name: ReinforcedRod
+  m_EditorClassIdentifier: 
+  mesh: {fileID: 7629325674522098870, guid: aaf12a671cee1fd448498f585f14ecf9, type: 3}
+  material: {fileID: 2100000, guid: 63bdba6dad15f004b8178da73edea1e5, type: 2}
+  gameObject: {fileID: 0}
+  spriteItem: {fileID: 21300000, guid: fc0daa3467a92da4a88d414bd22b6b0e, type: 3}
+  nameItem: Reinforced rod
+  description: 'Used in advanced manufacturing '
+  id: 18
+  maxStack: 0
+  isDiscover: 0
+  isEquipable: 0
+  itemType: 1
+  poseOffset:
+    position: {x: 0, y: 0.05, z: 0}
+    rotation: {x: 0, y: 0.70710677, z: 0, w: -0.70710677}
+  clip: {fileID: 0}

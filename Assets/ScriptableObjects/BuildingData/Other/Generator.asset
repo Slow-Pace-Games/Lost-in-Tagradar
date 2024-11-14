@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e05c45b2ff443d408eb37d5899535be, type: 3}
+  m_Name: Generator
+  m_EditorClassIdentifier: 
+  ranks:
+  - percentTimer: 0
+    percentEnergy: 0
+    texture: {fileID: 0}
+  costs:
+  - item: {fileID: 11400000, guid: cc9a9b2caec4c50428fff0e59cff1e00, type: 2}
+    value: 5
+  - item: {fileID: 11400000, guid: e96ec9d5b19dd1544924a30e5e61cbb2, type: 2}
+    value: 5
+  recipes: []
+  machineType: 0
+  machineClass: 2
+  prefabType: 1
+  isDiscovered: 0
+  prefab: {fileID: 5277883477418183238, guid: 6a1cd4c6d43f7b742a012a22c0dc7cf8, type: 3}
+  icon: {fileID: 21300000, guid: 3551a2d51f6f90d46b973ae933180e09, type: 3}
+  hasRecipe: 0
+  description: Consumes resources to produce electricity for your factory
+  sounds: {fileID: 11400000, guid: 09017c46228ba8b40944071065b6491d, type: 2}
+  discoverySound: {fileID: 8300000, guid: d71cfeaffbc689d40b650fb888b4e053, type: 3}

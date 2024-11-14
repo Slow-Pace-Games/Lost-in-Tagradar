@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945c8cfe49933c849b2e9fd261e5045f, type: 3}
+  m_Name: ReinforcedPlate
+  m_EditorClassIdentifier: 
+  mesh: {fileID: -5412156575642569039, guid: 274554a00cdbb1540a3245dd54834576, type: 3}
+  material: {fileID: 2100000, guid: 0bc82e52ec2cd47458178d12d81a2732, type: 2}
+  gameObject: {fileID: 0}
+  spriteItem: {fileID: 21300000, guid: 26af62ea2204e62488bf3a17b7212ff8, type: 3}
+  nameItem: Reinforced plate
+  description: 'Used in advanced manufacturing '
+  id: 17
+  maxStack: 0
+  isDiscover: 0
+  isEquipable: 0
+  itemType: 1
+  poseOffset:
+    position: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0, w: 1}
+  clip: {fileID: 0}

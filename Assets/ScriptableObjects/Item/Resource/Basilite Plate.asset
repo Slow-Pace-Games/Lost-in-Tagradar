@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945c8cfe49933c849b2e9fd261e5045f, type: 3}
+  m_Name: Basilite Plate
+  m_EditorClassIdentifier: 
+  mesh: {fileID: 9030585939142389106, guid: 88b5c8a47c65a914ebf8a23cd4d62eb8, type: 3}
+  material: {fileID: 2100000, guid: 03ceed6b1bea2614a9c61a15650cbf68, type: 2}
+  gameObject: {fileID: 0}
+  spriteItem: {fileID: 21300000, guid: aeeaa75db3a90c04088e04c81cbbde3f, type: 3}
+  nameItem: Basilite Plate
+  description: Used in basic manufacturing
+  id: 3
+  maxStack: 0
+  isDiscover: 0
+  isEquipable: 0
+  itemType: 1
+  poseOffset:
+    position: {x: 0, y: 0.1, z: 0}
+    rotation: {x: 0.00008727408, y: 0.00008725884, z: 0.00008725884, w: 1}
+  clip: {fileID: 0}

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30328ef860c78f34b99bd004e538f974, type: 3}
+  m_Name: 1-TutoSpaceship
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - {fileID: 8300000, guid: 6eb98a47313afd94cba2691052680dfa, type: 3}
+  - {fileID: 8300000, guid: 7364704436d49d34b8067865edfecced, type: 3}
+  - {fileID: 8300000, guid: 905fb2520995ff4409d2795e5862272a, type: 3}
+  - {fileID: 8300000, guid: de04eb69da9801245a498fc4ff79dcee, type: 3}
+  - {fileID: 8300000, guid: 45d3a9223eacab944bac0c5880af21a5, type: 3}
+  - {fileID: 8300000, guid: f667da6a1f3982f498753ca32a907034, type: 3}
+  - {fileID: 8300000, guid: eef8972bfdad40d49bb714311ed7bb71, type: 3}
+  - {fileID: 8300000, guid: 4dd5e8a88ade4514a8eb055f5451e66d, type: 3}
+  tutoDialogues:
+  - dialogue: '*Life support system activated*'
+    voiceType: 0
+    holdTime: 2
+  - dialogue: "\r*Starting up the system*"
+    voiceType: 0
+    holdTime: 2
+  - dialogue: '*Problem detected*
+
+'
+    voiceType: 0
+    holdTime: 2
+  - dialogue: '*Troubleshooting started*
+
+'
+    voiceType: 0
+    holdTime: 2
+  - dialogue: "*Problem solved*\r"
+    voiceType: 0
+    holdTime: 2
+  - dialogue: You have just suffered a ship crash.
+    voiceType: 1
+    holdTime: 2.2
+  - dialogue: I don't think it can fly anymore
+    voiceType: 1
+    holdTime: 2.4
+  - dialogue: Go see it to launch a complete analysis.
+    voiceType: 1
+    holdTime: 2
+  tutoTips: Open the <color=#028AFF>Spaceship</color> by pressing <color=#028AFF>F</color>
+    near it.
+  tutoTitle: 'Tuto : Spaceship'
+  tutoDescription: "Press \"F\" near the spaceship to open the menu. \nRepair each
+    parts to repair the entire spaceship"

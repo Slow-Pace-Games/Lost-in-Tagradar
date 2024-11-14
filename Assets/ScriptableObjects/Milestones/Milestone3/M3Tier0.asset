@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68c03636ea1273e469a45365f6431be1, type: 3}
+  m_Name: M3Tier0
+  m_EditorClassIdentifier: 
+  isUnlock: 1
+  isBought: 0
+  nameTier: Fusion
+  icon: {fileID: 1983754762, guid: ee80e24dd74913942b812cb2d652c071, type: 3}
+  iconBought: {fileID: 1983754762, guid: ee80e24dd74913942b812cb2d652c071, type: 3}
+  tierCost:
+  - item: {fileID: 11400000, guid: 8501ac4538bdf59408989bca442b779f, type: 2}
+    valueCost: 30
+  - item: {fileID: 11400000, guid: e3e44d70d96fcd04fb73d75468572ae0, type: 2}
+    valueCost: 15
+  - item: {fileID: 11400000, guid: 5702729d3a086b44c9439d21e159d515, type: 2}
+    valueCost: 20
+  rewards:
+    recipeReward:
+    - {fileID: 11400000, guid: 612e4f1d8b8e25b49b912a19cd9778e1, type: 2}
+    - {fileID: 11400000, guid: 8e65157362620d24fb676ba2bd50da7e, type: 2}
+    buildingReward:
+    - {fileID: 11400000, guid: 92629c79e7db6d046b6602417a555151, type: 2}

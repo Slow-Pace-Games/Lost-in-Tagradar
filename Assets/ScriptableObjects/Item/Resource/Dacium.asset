@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945c8cfe49933c849b2e9fd261e5045f, type: 3}
+  m_Name: Dacium
+  m_EditorClassIdentifier: 
+  mesh: {fileID: -3615957577254685788, guid: d34f706b1812d984a8640e77c33073b9, type: 3}
+  material: {fileID: 2100000, guid: b1d023461ce6e4c418ac26c2d45d3d3f, type: 2}
+  gameObject: {fileID: 0}
+  spriteItem: {fileID: 21300000, guid: 8ee6e0c2916b0864f80e0fae1b69b902, type: 3}
+  nameItem: Dacium
+  description: The most robust metal found on this planet
+  id: 10
+  maxStack: 0
+  isDiscover: 0
+  isEquipable: 0
+  itemType: 1
+  poseOffset:
+    position: {x: 0, y: 0.2, z: 0}
+    rotation: {x: 0.48170224, y: 0.3700833, z: 0.1475162, w: 0.78053844}
+  clip: {fileID: 8300000, guid: 578a1106093c4224dbee1fd356bddb24, type: 3}

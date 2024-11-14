@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e05c45b2ff443d408eb37d5899535be, type: 3}
+  m_Name: Pylon
+  m_EditorClassIdentifier: 
+  ranks:
+  - percentTimer: 0
+    percentEnergy: 0
+    texture: {fileID: 0}
+  costs:
+  - item: {fileID: 11400000, guid: c9187869df6395047a97fc422cb75e7f, type: 2}
+    value: 2
+  - item: {fileID: 11400000, guid: e9c5b9a30ed9a114c82816965cd85ec9, type: 2}
+    value: 2
+  recipes: []
+  machineType: 0
+  machineClass: 2
+  prefabType: 1
+  isDiscovered: 0
+  prefab: {fileID: 8789197643414052727, guid: f025d318df07f794dbe3be3a9c3b0de6, type: 3}
+  icon: {fileID: 21300000, guid: a01fc1d71bb4876439b50e616f7a9473, type: 3}
+  hasRecipe: 1
+  description: Delivers electricity in a 30 meters radius
+  sounds: {fileID: 11400000, guid: bff120544d7b7b045b75ecb5aa56382a, type: 2}
+  discoverySound: {fileID: 8300000, guid: 283a283252d2a8243b51ec0a76d87df2, type: 3}
